@@ -1,0 +1,76 @@
+/* src/pages/Collaborations.css */
+
+.collaborations-container {
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .collab-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .collab-header h1 {
+    font-size: 2.5rem;
+    color: #00695c;
+    margin-bottom: 10px;
+  }
+  
+  .collab-header p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .collab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .collab-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .collab-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .collab-logo {
+    max-width: 100px;
+    max-height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .collab-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #004d40;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    background-color: #e0f2f1;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: #00695c;
+  }
+  
+  .collab-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+  } 

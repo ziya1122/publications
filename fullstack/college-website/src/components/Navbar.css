@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #002147;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.4;
+}
